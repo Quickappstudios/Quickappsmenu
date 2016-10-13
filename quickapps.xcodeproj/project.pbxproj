@@ -7,14 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8D3E12861DB0001700A902FF /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D3E12851DB0001700A902FF /* MenuViewController.swift */; };
+		8D7B86521DAFD2AB0012010F /* QuickappsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D7B86511DAFD2AB0012010F /* QuickappsViewController.swift */; };
 		8DABB37A1DAFB4B6007D1006 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DABB3791DAFB4B6007D1006 /* AppDelegate.swift */; };
 		8DABB37C1DAFB4B6007D1006 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DABB37B1DAFB4B6007D1006 /* ViewController.swift */; };
 		8DABB37F1DAFB4B6007D1006 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8DABB37D1DAFB4B6007D1006 /* Main.storyboard */; };
 		8DABB3811DAFB4B6007D1006 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8DABB3801DAFB4B6007D1006 /* Assets.xcassets */; };
 		8DABB3841DAFB4B6007D1006 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8DABB3821DAFB4B6007D1006 /* LaunchScreen.storyboard */; };
+		8DABB38E1DAFB613007D1006 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DABB38D1DAFB613007D1006 /* SWRevealViewController.m */; };
+		8DABB3911DAFC265007D1006 /* QuickplayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DABB3901DAFC265007D1006 /* QuickplayViewController.swift */; };
+		8DBCB5611DB009DB00755E69 /* sideMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DBCB5601DB009DB00755E69 /* sideMenu.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8D3E12851DB0001700A902FF /* MenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		8D7B86511DAFD2AB0012010F /* QuickappsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuickappsViewController.swift; sourceTree = "<group>"; };
 		8DABB3761DAFB4B6007D1006 /* quickapps.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = quickapps.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8DABB3791DAFB4B6007D1006 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8DABB37B1DAFB4B6007D1006 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +29,11 @@
 		8DABB3801DAFB4B6007D1006 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8DABB3831DAFB4B6007D1006 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8DABB3851DAFB4B6007D1006 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8DABB38B1DAFB612007D1006 /* quickapps-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "quickapps-Bridging-Header.h"; sourceTree = "<group>"; };
+		8DABB38C1DAFB613007D1006 /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
+		8DABB38D1DAFB613007D1006 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
+		8DABB3901DAFC265007D1006 /* QuickplayViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuickplayViewController.swift; sourceTree = "<group>"; };
+		8DBCB5601DB009DB00755E69 /* sideMenu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = sideMenu.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +50,10 @@
 		8DABB36D1DAFB4B5007D1006 = {
 			isa = PBXGroup;
 			children = (
+				8DBCB5601DB009DB00755E69 /* sideMenu.swift */,
+				8D3E12851DB0001700A902FF /* MenuViewController.swift */,
+				8D7B86511DAFD2AB0012010F /* QuickappsViewController.swift */,
+				8DABB3901DAFC265007D1006 /* QuickplayViewController.swift */,
 				8DABB3781DAFB4B6007D1006 /* quickapps */,
 				8DABB3771DAFB4B6007D1006 /* Products */,
 			);
@@ -54,6 +70,7 @@
 		8DABB3781DAFB4B6007D1006 /* quickapps */ = {
 			isa = PBXGroup;
 			children = (
+				8DABB38F1DAFB626007D1006 /* burger menu */,
 				8DABB3791DAFB4B6007D1006 /* AppDelegate.swift */,
 				8DABB37B1DAFB4B6007D1006 /* ViewController.swift */,
 				8DABB37D1DAFB4B6007D1006 /* Main.storyboard */,
@@ -62,6 +79,17 @@
 				8DABB3851DAFB4B6007D1006 /* Info.plist */,
 			);
 			path = quickapps;
+			sourceTree = "<group>";
+		};
+		8DABB38F1DAFB626007D1006 /* burger menu */ = {
+			isa = PBXGroup;
+			children = (
+				8DABB38C1DAFB613007D1006 /* SWRevealViewController.h */,
+				8DABB38D1DAFB613007D1006 /* SWRevealViewController.m */,
+				8DABB38B1DAFB612007D1006 /* quickapps-Bridging-Header.h */,
+			);
+			name = "burger menu";
+			path = ..;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -97,6 +125,7 @@
 					8DABB3751DAFB4B5007D1006 = {
 						CreatedOnToolsVersion = 8.1;
 						DevelopmentTeam = A35HQT7AEF;
+						LastSwiftMigration = 0810;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -137,8 +166,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8D7B86521DAFD2AB0012010F /* QuickappsViewController.swift in Sources */,
+				8D3E12861DB0001700A902FF /* MenuViewController.swift in Sources */,
+				8DABB3911DAFC265007D1006 /* QuickplayViewController.swift in Sources */,
 				8DABB37C1DAFB4B6007D1006 /* ViewController.swift in Sources */,
+				8DBCB5611DB009DB00755E69 /* sideMenu.swift in Sources */,
 				8DABB37A1DAFB4B6007D1006 /* AppDelegate.swift in Sources */,
+				8DABB38E1DAFB613007D1006 /* SWRevealViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,11 +295,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = A35HQT7AEF;
 				INFOPLIST_FILE = quickapps/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.quickapps.quickapps;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "quickapps-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -274,11 +311,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = A35HQT7AEF;
 				INFOPLIST_FILE = quickapps/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.quickapps.quickapps;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "quickapps-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
@@ -302,6 +341,7 @@
 				8DABB38A1DAFB4B6007D1006 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
