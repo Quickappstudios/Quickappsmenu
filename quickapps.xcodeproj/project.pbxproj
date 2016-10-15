@@ -7,24 +7,37 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		62F66C3A0A8FB0B0E19C03BC /* Pods_quickapps.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F3656A6041287D6C744F1E2 /* Pods_quickapps.framework */; };
+		8D19B8CA1DB1A46100E0DF23 /* MyLandingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D19B8C91DB1A46100E0DF23 /* MyLandingViewController.swift */; };
+		8D19B8CC1DB1B62100E0DF23 /* TabbarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D19B8CB1DB1B62100E0DF23 /* TabbarController.swift */; };
 		8D3E12861DB0001700A902FF /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D3E12851DB0001700A902FF /* MenuViewController.swift */; };
+		8D6168F41DB10CEA00D25F16 /* emailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D6168F31DB10CEA00D25F16 /* emailViewController.swift */; };
+		8D6168F71DB1124200D25F16 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D6168F61DB1124200D25F16 /* MessageUI.framework */; };
+		8D6168F91DB1317100D25F16 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8D6168F81DB1317100D25F16 /* GoogleService-Info.plist */; };
 		8D7B86521DAFD2AB0012010F /* QuickappsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D7B86511DAFD2AB0012010F /* QuickappsViewController.swift */; };
 		8DABB37A1DAFB4B6007D1006 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DABB3791DAFB4B6007D1006 /* AppDelegate.swift */; };
-		8DABB37C1DAFB4B6007D1006 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DABB37B1DAFB4B6007D1006 /* ViewController.swift */; };
 		8DABB37F1DAFB4B6007D1006 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8DABB37D1DAFB4B6007D1006 /* Main.storyboard */; };
 		8DABB3811DAFB4B6007D1006 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8DABB3801DAFB4B6007D1006 /* Assets.xcassets */; };
 		8DABB3841DAFB4B6007D1006 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8DABB3821DAFB4B6007D1006 /* LaunchScreen.storyboard */; };
 		8DABB38E1DAFB613007D1006 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DABB38D1DAFB613007D1006 /* SWRevealViewController.m */; };
 		8DABB3911DAFC265007D1006 /* QuickplayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DABB3901DAFC265007D1006 /* QuickplayViewController.swift */; };
 		8DBCB5611DB009DB00755E69 /* sideMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DBCB5601DB009DB00755E69 /* sideMenu.swift */; };
+		8DDB68001DB1CF000068637E /* SCLAlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DDB67FF1DB1CF000068637E /* SCLAlertView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1B83ADC6FBCB5549B9F416E0 /* Pods-quickapps.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-quickapps.debug.xcconfig"; path = "Pods/Target Support Files/Pods-quickapps/Pods-quickapps.debug.xcconfig"; sourceTree = "<group>"; };
+		4F3656A6041287D6C744F1E2 /* Pods_quickapps.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_quickapps.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D19B8C91DB1A46100E0DF23 /* MyLandingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyLandingViewController.swift; sourceTree = "<group>"; };
+		8D19B8CB1DB1B62100E0DF23 /* TabbarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabbarController.swift; sourceTree = "<group>"; };
 		8D3E12851DB0001700A902FF /* MenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		8D6168F31DB10CEA00D25F16 /* emailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = emailViewController.swift; sourceTree = "<group>"; };
+		8D6168F61DB1124200D25F16 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		8D6168F81DB1317100D25F16 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../GoogleService-Info.plist"; sourceTree = "<group>"; };
+		8D6168FD1DB13C8700D25F16 /* quickapps.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = quickapps.entitlements; sourceTree = "<group>"; };
 		8D7B86511DAFD2AB0012010F /* QuickappsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuickappsViewController.swift; sourceTree = "<group>"; };
 		8DABB3761DAFB4B6007D1006 /* quickapps.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = quickapps.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8DABB3791DAFB4B6007D1006 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		8DABB37B1DAFB4B6007D1006 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		8DABB37E1DAFB4B6007D1006 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8DABB3801DAFB4B6007D1006 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8DABB3831DAFB4B6007D1006 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -34,6 +47,8 @@
 		8DABB38D1DAFB613007D1006 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
 		8DABB3901DAFC265007D1006 /* QuickplayViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuickplayViewController.swift; sourceTree = "<group>"; };
 		8DBCB5601DB009DB00755E69 /* sideMenu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = sideMenu.swift; sourceTree = "<group>"; };
+		8DDB67FF1DB1CF000068637E /* SCLAlertView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SCLAlertView.swift; sourceTree = "<group>"; };
+		BD9CBF9A2062D5F2305561F0 /* Pods-quickapps.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-quickapps.release.xcconfig"; path = "Pods/Target Support Files/Pods-quickapps/Pods-quickapps.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,21 +56,69 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8D6168F71DB1124200D25F16 /* MessageUI.framework in Frameworks */,
+				62F66C3A0A8FB0B0E19C03BC /* Pods_quickapps.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		8DABB36D1DAFB4B5007D1006 = {
+		75B393D62AD688DB3C3BF2AE /* Pods */ = {
 			isa = PBXGroup;
 			children = (
+				1B83ADC6FBCB5549B9F416E0 /* Pods-quickapps.debug.xcconfig */,
+				BD9CBF9A2062D5F2305561F0 /* Pods-quickapps.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		8D6168F51DB1124100D25F16 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8D6168F61DB1124200D25F16 /* MessageUI.framework */,
+				4F3656A6041287D6C744F1E2 /* Pods_quickapps.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8D6168FA1DB135AC00D25F16 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				8D6168F31DB10CEA00D25F16 /* emailViewController.swift */,
 				8DBCB5601DB009DB00755E69 /* sideMenu.swift */,
 				8D3E12851DB0001700A902FF /* MenuViewController.swift */,
 				8D7B86511DAFD2AB0012010F /* QuickappsViewController.swift */,
 				8DABB3901DAFC265007D1006 /* QuickplayViewController.swift */,
+				8D19B8C91DB1A46100E0DF23 /* MyLandingViewController.swift */,
+				8D19B8CB1DB1B62100E0DF23 /* TabbarController.swift */,
+			);
+			name = Controller;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		8D6168FB1DB135FB00D25F16 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		8D6168FC1DB1362300D25F16 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		8DABB36D1DAFB4B5007D1006 = {
+			isa = PBXGroup;
+			children = (
 				8DABB3781DAFB4B6007D1006 /* quickapps */,
 				8DABB3771DAFB4B6007D1006 /* Products */,
+				8D6168F51DB1124100D25F16 /* Frameworks */,
+				75B393D62AD688DB3C3BF2AE /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -70,13 +133,18 @@
 		8DABB3781DAFB4B6007D1006 /* quickapps */ = {
 			isa = PBXGroup;
 			children = (
+				8DDB67FF1DB1CF000068637E /* SCLAlertView.swift */,
+				8D6168FD1DB13C8700D25F16 /* quickapps.entitlements */,
+				8D6168FC1DB1362300D25F16 /* Model */,
+				8D6168FA1DB135AC00D25F16 /* Controller */,
+				8D6168FB1DB135FB00D25F16 /* View */,
+				8DABB37D1DAFB4B6007D1006 /* Main.storyboard */,
+				8DABB3821DAFB4B6007D1006 /* LaunchScreen.storyboard */,
 				8DABB38F1DAFB626007D1006 /* burger menu */,
 				8DABB3791DAFB4B6007D1006 /* AppDelegate.swift */,
-				8DABB37B1DAFB4B6007D1006 /* ViewController.swift */,
-				8DABB37D1DAFB4B6007D1006 /* Main.storyboard */,
 				8DABB3801DAFB4B6007D1006 /* Assets.xcassets */,
-				8DABB3821DAFB4B6007D1006 /* LaunchScreen.storyboard */,
 				8DABB3851DAFB4B6007D1006 /* Info.plist */,
+				8D6168F81DB1317100D25F16 /* GoogleService-Info.plist */,
 			);
 			path = quickapps;
 			sourceTree = "<group>";
@@ -99,9 +167,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8DABB3881DAFB4B6007D1006 /* Build configuration list for PBXNativeTarget "quickapps" */;
 			buildPhases = (
+				E7B28DB480A0D5581541C782 /* [CP] Check Pods Manifest.lock */,
 				8DABB3721DAFB4B5007D1006 /* Sources */,
 				8DABB3731DAFB4B5007D1006 /* Frameworks */,
 				8DABB3741DAFB4B5007D1006 /* Resources */,
+				5E2CCC241B65C033B25A0307 /* [CP] Embed Pods Frameworks */,
+				0D997E3D3895B8E21B1076F7 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -127,6 +198,11 @@
 						DevelopmentTeam = A35HQT7AEF;
 						LastSwiftMigration = 0810;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -154,12 +230,61 @@
 			buildActionMask = 2147483647;
 			files = (
 				8DABB3841DAFB4B6007D1006 /* LaunchScreen.storyboard in Resources */,
+				8D6168F91DB1317100D25F16 /* GoogleService-Info.plist in Resources */,
 				8DABB3811DAFB4B6007D1006 /* Assets.xcassets in Resources */,
 				8DABB37F1DAFB4B6007D1006 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0D997E3D3895B8E21B1076F7 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-quickapps/Pods-quickapps-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5E2CCC241B65C033B25A0307 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-quickapps/Pods-quickapps-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E7B28DB480A0D5581541C782 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		8DABB3721DAFB4B5007D1006 /* Sources */ = {
@@ -168,10 +293,13 @@
 			files = (
 				8D7B86521DAFD2AB0012010F /* QuickappsViewController.swift in Sources */,
 				8D3E12861DB0001700A902FF /* MenuViewController.swift in Sources */,
+				8DDB68001DB1CF000068637E /* SCLAlertView.swift in Sources */,
+				8D19B8CA1DB1A46100E0DF23 /* MyLandingViewController.swift in Sources */,
 				8DABB3911DAFC265007D1006 /* QuickplayViewController.swift in Sources */,
-				8DABB37C1DAFB4B6007D1006 /* ViewController.swift in Sources */,
+				8D6168F41DB10CEA00D25F16 /* emailViewController.swift in Sources */,
 				8DBCB5611DB009DB00755E69 /* sideMenu.swift in Sources */,
 				8DABB37A1DAFB4B6007D1006 /* AppDelegate.swift in Sources */,
+				8D19B8CC1DB1B62100E0DF23 /* TabbarController.swift in Sources */,
 				8DABB38E1DAFB613007D1006 /* SWRevealViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -293,9 +421,11 @@
 		};
 		8DABB3891DAFB4B6007D1006 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1B83ADC6FBCB5549B9F416E0 /* Pods-quickapps.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = quickapps/quickapps.entitlements;
 				DEVELOPMENT_TEAM = A35HQT7AEF;
 				INFOPLIST_FILE = quickapps/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -309,9 +439,11 @@
 		};
 		8DABB38A1DAFB4B6007D1006 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BD9CBF9A2062D5F2305561F0 /* Pods-quickapps.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = quickapps/quickapps.entitlements;
 				DEVELOPMENT_TEAM = A35HQT7AEF;
 				INFOPLIST_FILE = quickapps/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";

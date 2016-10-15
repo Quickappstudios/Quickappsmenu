@@ -9,72 +9,67 @@
 import UIKit
 import WebKit
 
+import Firebase
+import FirebaseInstanceID
+import FirebaseMessaging
+
 class QuickappsViewController: UIViewController {
     
-    var webView:WKWebView!
+    
     
     @IBOutlet weak var menuBar: UIBarButtonItem!
     
-    @IBOutlet weak var container: UIView!
+    @IBOutlet weak var webView: UIWebView!
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        
+        ///Firebase Push Notifications
+        
+        FIRMessaging.messaging().subscribe(toTopic: "/topics/news")
+        
+    
+
 
     //set title to quickapps
-    self.navigationItem.title = "Quickapps"
+    self.navigationItem.title = "QuickApps"
         
-      
+        
         
     }
-    
     
     
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
         
-        loadWebsite()
+    slideMenu()
         
-        slideMenu()
+        LoadWebsite()
+        
+        
         
     }
     
     
-    
-    
-    
-    
-    //Mark: Fuctions
 
-    ///load website
     
+    //Load our website//
     
-    func loadWebsite(){
+    func LoadWebsite(){
         
-        webView = WKWebView()
+        let URL = Foundation.URL(string: "http://www.quickapps.ie/qa")
         
-        container.addSubview(webView)
+        let request = URLRequest(url: URL! as URL)
         
-        let frame = CGRect(x: 0, y: 0, width: container.bounds.width, height: container.bounds.height)
+        webView.loadRequest(request as URLRequest)
         
-        webView.frame = frame
         
-        let urlStr = "http://www.manorstone.ie/"
         
-        let url = NSURL(string:urlStr)!
         
-        let request = NSURLRequest(url:url as URL)
         
-        webView.load(request as URLRequest)
-        
-
     }
-    
-    
-    
-    
-    
-   
-    
     
     
     //slidemenubuttons//

@@ -15,6 +15,7 @@ import WebKit
 class QuickplayViewController: UIViewController {
     
     
+    @IBOutlet weak var webView: UIWebView!
     
     @IBOutlet weak var menuBar: UIBarButtonItem!
     
@@ -26,13 +27,23 @@ class QuickplayViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-         self.navigationItem.title = "QuickPlay"
+         self.navigationItem.title = "QuickApps"
         
           slideMenu()
+        loadwebsite()
             
             
             
         }
+    
+    
+    //Loads our website
+    func loadwebsite(){
+        
+        
+               
+        
+    }
     
     
     

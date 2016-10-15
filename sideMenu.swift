@@ -17,27 +17,40 @@ class sideMenu:UITableViewController{
     //create our object for text images
   var menuArray = [String]()
 var menuImage = [String]()
+    var identities = [String]()
     
     
     override func viewDidLoad() {
         
-        //add to our array of data
+        //add to our array of data for static text
        
         menuArray = ["QUICKAPPS", "QUICKPLAY"]
         
-        
+        //add to our array of data for static text
         menuImage = ["Program","Blog"]
         
+        //identities = ["Quickapps","Quickplay"]
         
-        
-        ///create a loop
-        
+        //identifiers
+        //let smOption_One = "toFilmsIWantToSee"
+        //let smOption_Two = "toSearchForAnyFilm"
         
         
     }
     
     
     
+    
+    
+    override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        
+        
+        
+        
+        
+        
+        
+    }
     
     
     
@@ -73,27 +86,65 @@ var menuImage = [String]()
             
             //populate data into our menu
             cell?.textLabel?.text = menuArray[indexPath.row]
+        
+        //let image : UIImage = UIImage(named: "Blog")!
+        //print("The loaded image: \(image)")
             
             return cell!
         }
         
         
-            
-           //let image : UIImage = UIImage(named: "Blog")!
-        //print("The loaded image: \(image)")
-       
-            
+    
+    
+    //navigate to other screens
+    
+    
+    
+
+    
+    
+    
+    
+    
         
+        
+        
+     //let vcName = identities[indexPath.row]
+        
+        //let viewController = storyboard?.instantiateViewController(withIdentifier: vcName)
+        
+        //self.navigationController?.pushViewController(viewController!, animated: true)
+        
+        
+        
+        //let storyBoard : UIStoryboard = UIStoryboard(name: "quickapps", bundle:nil)
+        
+        //let nextViewController = storyBoard.instantiateViewController(withIdentifier: "Quickapps") as! QuickappsViewController
+        //self.present(nextViewController, animated:true, completion:nil)
+        
+        //print("was pressed")
+        
+        
+
+        
+        
+        
+        
+}
+
+
+
+
    
+
+    
+    
+
     
     
     
-    }
-    
-    
-    
-    
-    
+
+
 
 
 
